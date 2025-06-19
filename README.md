@@ -1,12 +1,26 @@
-# React + Vite
+# 🎥 Lively - React Video Streaming App
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Lively is a responsive and interactive video streaming application built with **React**. It allows users to watch live or pre-recorded videos with a smooth and modern user interface.
 
-Currently, two official plugins are available:
+## 🚀 Features
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+- Live and on-demand video streaming
+- Clean, responsive UI using React
+- React Router for page navigation
+- Real-time interaction support (can integrate with WebRTC or socket.io)
+- User authentication (optional with Firebase/Auth0)
+- Easy deployment with Vercel
 
-## Expanding the ESLint configuration
+## 🛠 Tech Stack
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+- **Frontend:** React, React Router, CSS
+- **Streaming SDK:** ZegoCloud (or your preferred service)
+- **Deployment:** Vercel
+
+## 📦 Installation
+
+```bash
+git clone https://github.com/your-username/lively.git
+cd lively
+npm install
+npm run dev
